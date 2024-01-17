@@ -1,5 +1,14 @@
-.test>*{
-    background-color: red;
-    border: 1px solid white;
-    height: 100px;
+.circular{
+    display: block;
+   aspect-ratio: 1 ;
+    ;
+}
+
+hr{
+    width: 80px;
+
+}
+
+.scale{
+    transform: scale(1.5);
 }
