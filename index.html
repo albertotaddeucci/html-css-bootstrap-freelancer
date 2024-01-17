@@ -12,13 +12,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
+
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+
+        <div class="container">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -28,7 +31,7 @@
               </li>
               
               <li class="nav-item">
-                <a class="nav-link" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#">Disabled</a>
               </li>
             </ul>
             
@@ -41,10 +44,10 @@
     <section style="background-color: green;">
 
       <div class="container">
-        <div class="img-fluid w-50 mx-auto">
+        <div class="img-fluid w-50 mx-auto " style="max-width: 200px;">
             <img src="img/avatar.svg" alt="immagine avatar">
         </div>
-        <h1 class="text-center">Start bootstrap</h1>
+        <h1 class="text-center text-uppercase">Start bootstrap</h1>
         <hr>
         <ul class="list-group list-group-horizontal justify-content-center pb-4">
             <li class="list-group-item">An item</li>
@@ -56,10 +59,10 @@
 
     <section class="pt-4">
         <div class="container pb-5">
-            <h2 class="text-center">Portfolio</h2>
+            <h2 class="text-center text-uppercase">Portfolio</h2>
             <hr>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 px-2  | test" >
-                <div class="col">1
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-1 | test" >
+                <div class="col">
                     <!-- <img src="img/cabin.png" class="img-thumbnail" alt="..."> -->
 
                 </div>
@@ -75,10 +78,10 @@
     </section>
 
     <section style="background-color: green;">
-        <div class="container d-flex flex-column align-items-center pt-4">
-            <h3>About</h3>
+        <div class="container d-flex flex-column align-items-center py-4">
+            <h3 class="text-uppercase">About</h3>
             <hr>
-            <div class="row row-cols-1 row-cols-sm-2 mx-3">
+            <div class="row row-cols-1 row-cols-md-2 mx-5">
                 <div class="col">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellat odit maxime odio iure cupiditate blanditiis sint. Sint, vitae nihil dolorum, deserunt id officia, eos nobis iste quia ipsam neque?</p>
 
@@ -91,6 +94,21 @@
             <button type="button" class="btn btn-outline-light my-4">download</button>
         </div>
     </section>
+
+    <section>
+        <div class="container">
+
+            <div class="row px-2 p-4 | test">
+                <div class="col-12 col-md-4">1</div>
+                <div class="col-12 col-md-4">2</div>
+                <div class="col-12 col-md-4">3</div>
+    
+            </div>
+        </div>
+    </section>
+    <footer class="text-center py-4">
+        <span>copy</span>
+    </footer>
 
 
 
