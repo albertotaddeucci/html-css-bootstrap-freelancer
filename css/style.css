@@ -1,11 +1,6 @@
-.circular{
-    display: block;
-   aspect-ratio: 1 ;
-    ;
-}
-
-hr{
-    width: 80px;
+.my_icon{
+    height: 40px;
+    aspect-ratio: 1 ;
 
 }
 
