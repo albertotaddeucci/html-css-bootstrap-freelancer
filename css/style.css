@@ -1,12 +1,17 @@
+
+/* for icon */
+
 .my_icon{
     height: 40px;
     aspect-ratio: 1 ;
 
 }
-
 .scale{
     transform: scale(1.5);
 }
+
+
+/* backround/text color */
 
 .my_success{
     background-color: #1abc9c;
