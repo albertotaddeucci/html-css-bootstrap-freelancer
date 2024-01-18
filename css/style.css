@@ -1,15 +1,16 @@
 
-/* for icon */
+/*star icon */
+.scale{
+    transform: scale(1.5);
+}
+
+/* social icons */
 
 .my_icon{
     height: 40px;
     aspect-ratio: 1 ;
 
 }
-.scale{
-    transform: scale(1.5);
-}
-
 
 /* backround/text color */
 
